@@ -1,13 +1,34 @@
-.site{
+.arkaplan{
 
-   background-image: url(img/1.jpg)  ;
-
+   
+ background-color: gray;
    height: 100vh;
    width: 100%;
    background-size: cover;
+   background-attachment: fixed;
 }
+
+
 
 .nav-item a{
 
-    color :antiquewhite
+    color :antiquewhite;
+    font-size: 30px;
+    font-weight: lighter;
+
+    
+}
+
+.logo{
+
+    height: 40px;
+    position: absolute;
+    left: 90px;
+}
+
+
+.sliderfoto{
+
+    height: 600px;
+   
 }
