@@ -1,11 +1,26 @@
+#body{
+
+    background-color: rgb(58, 59, 84);
+}
+
+
+
+
 .arkaplan{
 
-   
- background-color: gray;
+background-image: url(resimler/bluebackground.jpg);
+ background-color: rgb(58, 59, 84);
    height: 100vh;
    width: 100%;
    background-size: cover;
    background-attachment: fixed;
+}
+
+.navbar-brand{
+
+    font-size: 30px;
+    font-weight: bold;
+    color: antiquewhite;
 }
 
 
@@ -14,21 +29,52 @@
 
     color :antiquewhite;
     font-size: 30px;
-    font-weight: lighter;
-
+    font-weight: bold;
+  
     
 }
 
-.logo{
+.yazilar1{
+position: absolute;
 
-    height: 40px;
-    position: absolute;
-    left: 90px;
+top: 100px;
+
 }
 
-
-.sliderfoto{
-
-    height: 600px;
-   
+.xddd {
+ 
+   text-align:justify;
+    line-height: 2;
+    width: 500px;
+    z-index: -1;
+    color: rgb(1, 0, 1);
+    text-decoration:dashed;
+   font-family: 'Montserrat', sans-serif;
 }
+ .myphoto{
+top: 20px;
+position: absolute;
+left: 1000px;
+
+ }
+  
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
