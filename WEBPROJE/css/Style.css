@@ -1,14 +1,18 @@
-#body{
+body{
 
     background-color: rgb(58, 59, 84);
+    margin: 0;
+    padding: 0;
 }
 
 
-
+.navbar{
+    height: 14vh;
+}
 
 .arkaplan{
 
-background-image: url(resimler/bluebackground.jpg);
+background-image: url(resimler/3312580.jpg);
  background-color: rgb(58, 59, 84);
    height: 100vh;
    width: 100%;
@@ -18,16 +22,16 @@ background-image: url(resimler/bluebackground.jpg);
 
 .navbar-brand{
 
-    font-size: 30px;
+    
     font-weight: bold;
-    color: antiquewhite;
+    
 }
 
 
 
 .nav-item a{
 
-    color :antiquewhite;
+    color :rgb(0, 0, 0);
     font-size: 30px;
     font-weight: bold;
   
@@ -43,24 +47,21 @@ top: 100px;
 
 .xddd {
  
-   text-align:justify;
+    text-align: justify;
     line-height: 2;
     width: 500px;
     z-index: -1;
-    color: rgb(1, 0, 1);
+    color: lightgoldenrodyellow;
     text-decoration:dashed;
    font-family: 'Montserrat', sans-serif;
 }
  .myphoto{
-top: 20px;
+top: 100px;
 position: absolute;
 left: 1000px;
-
+ height: 50vh;
  }
   
-
-
-
 
 
 
