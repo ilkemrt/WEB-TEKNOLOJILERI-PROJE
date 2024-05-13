@@ -1,13 +1,17 @@
-body{
-
-    background-color: rgb(58, 59, 84);
+h1{
+    
+    background-color: rgb(124, 124, 249);
     margin: 0;
     padding: 0;
+   height: 7vh;
+   border-radius:  40px/40px;
+   text-align-last: center;
 }
 
 
 .navbar{
     height: 14vh;
+    
 }
 
 .arkaplan{
@@ -63,19 +67,23 @@ left: 1000px;
  }
   
 
+.title2{
+
+    
+    text-align-last: center;
+}
 
 
+.carousel-inner{
+    box-shadow: 0 4px 8px 0 , 0 3px 20px 0 ;
+    position: absolute;
+    
+}
 
 
-
-
- 
-
-
-
-
-
-
+.card1{ position: fixed;
+top: -200px;
+}
 
 
 
