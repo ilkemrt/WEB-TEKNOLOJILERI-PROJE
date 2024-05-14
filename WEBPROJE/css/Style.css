@@ -1,6 +1,17 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image:url(resimler/3312580.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 h1{
     
-    background-color: rgb(124, 124, 249);
+    background-color:white;
     margin: 0;
     padding: 0;
    height: 7vh;
@@ -67,23 +78,75 @@ left: 1000px;
  }
   
 
+
 .title2{
 
     
     text-align-last: center;
 }
-
+.texta{
+    color: lightgoldenrodyellow;
+}
 
 .carousel-inner{
     box-shadow: 0 4px 8px 0 , 0 3px 20px 0 ;
-    position: absolute;
+    position: static;
     
 }
 
 
-.card1{ position: fixed;
-top: -200px;
+.arkaplan3{
+    margin: 0;
+    height: 80vh;
+    width: 100px;
+    padding: 0;
+    position: relative;
+    background-size: cover;
+   background-color: white;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
+.arkaplan4{
 
+    margin: 0;
+    height: 90vh;
+    width: 100px;
+    padding: 0;
+    position: static;
+    background-size: cover;
+   background-color: white;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.arkaplan5{
 
+    margin: 0;
+    height: 80vh;
+    width: 100px;
+    padding: 0;
+    position: static;
+    background-size: cover;
+   background-color: white;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
+}
+.mirasfoto{
+
+    box-shadow: 0 4px 8px 0 , 0 3px 20px 0 ;
+    position: static;
+}
+.mirasyazi{
+
+    text-align: justify;
+    line-height: 3;
+    width: 500px;
+    z-index: -1;
+    color: rgb(0, 0, 0);
+    text-decoration:dashed;
+   font-family: 'Montserrat', sans-serif;
+}
