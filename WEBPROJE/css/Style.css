@@ -97,7 +97,7 @@ left: 1000px;
 
 .arkaplan3{
     margin: 0;
-    height: 80vh;
+    height: 89vh;
     width: 100px;
     padding: 0;
     position: relative;
@@ -111,10 +111,10 @@ left: 1000px;
 .arkaplan4{
 
     margin: 0;
-    height: 90vh;
+    height: 99vh;
     width: 100px;
     padding: 0;
-    position: static;
+    position: relative;
     background-size: cover;
    background-color: white;
     box-sizing: border-box;
