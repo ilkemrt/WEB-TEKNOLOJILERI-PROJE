@@ -1,152 +1,66 @@
-
-body{
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-image:url(resimler/3312580.jpg);
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-h1{
-    
-    background-color:white;
-    margin: 0;
-    padding: 0;
-   height: 7vh;
-   border-radius:  40px/40px;
-   text-align-last: center;
-}
-
-
-.navbar{
-    height: 14vh;
-    
-}
-
-.arkaplan{
-
-background-image: url(resimler/3312580.jpg);
- background-color: rgb(58, 59, 84);
-   height: 100vh;
-   width: 100%;
-   background-size: cover;
-   background-attachment: fixed;
-}
-
-.navbar-brand{
-
-    
-    font-weight: bold;
-    
-}
-
-
-
-.nav-item a{
-
-    color :rgb(0, 0, 0);
-    font-size: 30px;
-    font-weight: bold;
+body {
+    font-family: 'Arial', sans-serif;
+  }
   
+  .navbar-brand {
+    font-weight: bold;
+   
+  }
+  .nav-item a{
+
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .baslik {
+    background: url(resimler/pxfuel.jpg) no-repeat center center/cover;
+    color: white;
+    padding: 150px 0;
+    height: 95vh;
+  }
+  
+  .baslik h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    padding-top: 90px;
+    text-align: center;
     
-}
-
-.yazilar1{
-position: absolute;
-
-top: 100px;
-
-}
-
-.xddd {
+  }
+  
+  .baslik p{
+    font-size: 2rem;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  #about{
+    height: 100vh;
+    background-color: #000000;
+  }
+  #about h2{
+    font-size: 3.2rem;
+    color: white;
+  }
+  #about p{
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .about-section, .projeler-section, .iletisim-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .projeler-section .card {
+    transition: transform 0.2s;
+  }
+  
+  .projeler-section .card:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
  
-    text-align: justify;
-    line-height: 2;
-    width: 500px;
-    z-index: -1;
-    color: lightgoldenrodyellow;
-    text-decoration:dashed;
-   font-family: 'Montserrat', sans-serif;
-}
- .myphoto{
-top: 100px;
-position: absolute;
-left: 1000px;
- height: 50vh;
- }
   
-
-
-.title2{
-
-    
-    text-align-last: center;
-}
-.texta{
-    color: lightgoldenrodyellow;
-}
-
-.carousel-inner{
-    box-shadow: 0 4px 8px 0 , 0 3px 20px 0 ;
-    position: static;
-    
-}
-
-
-.arkaplan3{
-    margin: 0;
-    height: 89vh;
-    width: 100px;
-    padding: 0;
-    position: relative;
-    background-size: cover;
-   background-color: white;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-}
-.arkaplan4{
-
-    margin: 0;
-    height: 99vh;
-    width: 100px;
-    padding: 0;
-    position: relative;
-    background-size: cover;
-   background-color: white;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.arkaplan5{
-
-    margin: 0;
-    height: 85vh;
-    width: 100px;
-    padding: 0;
-    position: relative;
-    background-size: cover;
-   background-color: white;
-    box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-}
-.mirasfoto{
-
-    box-shadow: 0 4px 8px 0 , 0 3px 20px 0 ;
-    position: static;
-}
-.mirasyazi{
-
-    text-align: justify;
-    line-height: 3;
-    width: 500px;
-    z-index: -1;
-    color: rgb(0, 0, 0);
-    text-decoration:dashed;
-   font-family: 'Montserrat', sans-serif;
-}

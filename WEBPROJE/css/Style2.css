@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+  
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .baslik {
+    background:rgb(241, 241, 241) no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    
+  }
+  .baslik h1{
+    color: black;
+    
+  }
+  #cityCarousel{
+   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  .carousel-item img{
+    height: 95vh;
+   
+    
+  }
+
+  #about-city{
+
+    height: 150vh;
+  }
+  
+  .baslik h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .baslik p {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  
+   .about-city, .foto-galeri, .heritage {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .foto-galeri img {
+    transition: transform 0.2s;
+  }
+  
+ .foto-galeri img:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    background-color: #343a40;
+  }
+  
