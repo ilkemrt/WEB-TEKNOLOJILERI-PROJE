@@ -41,9 +41,9 @@ body {
     color: white;
   }
   #about p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: white;
-    text-align: center;
+    text-align: justify;
   }
   
   .about-section, .projeler-section, .iletisim-section {
@@ -55,12 +55,16 @@ body {
     transition: transform 0.2s;
   }
   
-  .projeler-section .card:hover {
-    transform: scale(1.05);
+ .card:hover {
+    transform: scale(1.1);
   }
   
   footer {
     background-color: #343a40;
   }
- 
+ .card{
+  text-align: center;
+
+
+ }
   

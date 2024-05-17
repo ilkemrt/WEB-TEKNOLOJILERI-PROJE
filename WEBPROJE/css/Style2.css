@@ -1,9 +1,13 @@
 body {
     font-family: 'Arial', sans-serif;
-   background-image: url(resimler/gray.png);
-  }
   
-    
+    background: linear-gradient(to right, #868f96 0%, #596164 100%);
+	background-size: 100%;
+	background-repeat: no-repeat;
+ 
+
+
+  }
   
   
   .navbar-brand {
@@ -17,18 +21,27 @@ body {
     background-image: url(resimler/şehirarkaplan.jpg);
     
   }
-  .baslik h1{
-    color: black;
-    
+
+  .baslik h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    opacity: 0.9;
+    color: rgb(0, 0, 0);
+  }
+  .baslik p {
+    font-size: 1.25rem;
+    margin-top: 10px;
   }
 
   .carousel-inner{
-    border-radius: 15px;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   }
-
+  .carousel-inner:hover {
+    transform: scale(1.01);
+  }
 .carousel-item img{
-  height: 95dvh;
+  height: 94dvh;
 
 }
 
@@ -49,6 +62,11 @@ body {
   }
   #slider {
     margin-bottom: 2rem;
+    position: static;
+    width: 70%;
+    overflow: hidden;
+    margin: 0 auto;
+  
   }
 
   #about-city{
@@ -60,16 +78,7 @@ text-align: center;
     color: black;
     font-size: 1.1rem;
   }
-  
-  .baslik h1 {
-    font-size: 3rem;
-    font-weight: bold;
-  }
-  
-  .baslik p {
-    font-size: 1.25rem;
-    margin-top: 10px;
-  }
+
   
    .about-city, .foto-galeri, .heritage {
     padding-top: 50px;
@@ -87,4 +96,31 @@ text-align: center;
   footer {
     background-color: #343a40;
   }
+  #heritage h2{
+    font-size: 2rem;
+
   
+
+  }
+  #heritage p{
+    font-size: 1.3rem;
+    text-align: left;
+    color: black;
+
+  
+
+  }
+  #heritage{
+    overflow: scroll;
+    flex: 1;
+    
+  }
+
+  #foto-galeri img{
+    border-radius: 5px;
+
+  }
+  #foto-galeri img:hover{
+    transform: scale(1.3);
+    
+  }
