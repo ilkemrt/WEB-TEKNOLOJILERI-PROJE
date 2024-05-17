@@ -1,7 +1,10 @@
 body {
     font-family: 'Arial', sans-serif;
- 
+   background-image: url(resimler/gray.png);
   }
+  
+    
+  
   
   .navbar-brand {
     font-weight: bold;
@@ -11,6 +14,7 @@ body {
     background:rgb(241, 241, 241) no-repeat center center/cover;
     color: white;
     padding: 100px 0;
+    background-image: url(resimler/şehirarkaplan.jpg);
     
   }
   .baslik h1{
