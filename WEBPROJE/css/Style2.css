@@ -21,8 +21,10 @@ body {
     color: black;
     
   }
-  #cityCarousel{
-   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+  .carousel-inner{
+    border-radius: 15px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   }
 
 .carousel-item img{
@@ -50,9 +52,13 @@ body {
   }
 
   #about-city{
-
+text-align: center;
     height: 130dvh;
     display: flex;
+  }
+  #about-city p{
+    color: black;
+    font-size: 1.1rem;
   }
   
   .baslik h1 {
