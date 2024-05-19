@@ -31,6 +31,7 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
           <li><a class="dropdown-item" href="proje4.html?">Film Arama Hizmeti</a></li>
+          <li><a class="dropdown-item" href="login.html?">Kullanıcı Girişi</a></li>
           
           </ul>
         </div>
@@ -58,17 +59,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="container-fluid iletisimform ">
 
-    <form id="contactForm">
+    <form id="contactForm"  action="proje.html" method="post" onsubmit="return login()">
         <h3>KULLANICI GİRİŞİ</h3>
-        <input type="text" id="kullaniciadi" placeholder="Kullanıcı Adınızı Giriniz." required>
+        <input type="text" id="username" placeholder="Kullanıcı Adınızı Giriniz." required>
        
-        <input type="password" id="sifre" placeholder="Şifrenizi Giriniz." required>
+        <input type="password" id="password" placeholder="Şifrenizi Giriniz." required>
       
        
         <button type="submit" id="btn1" value="click" >Giriş Yap</button>
-        <button type="reset" id="btn2">Temizle</button>
     </form>
 </div>  
 
@@ -84,6 +102,22 @@
   </footer>
 
 
+
+  <script>
+    function login() {
+        var username = document.getElementById('username').value;
+        var emailPattern = /^[a-z0-9]+@sakarya\.edu\.tr$/;
+
+        if (!emailPattern.test(username)) {
+            alert("Geçerli bir kullanıcı adı (örneğin: b1812100001@sakarya.edu.tr) giriniz.");
+            return false;
+        }
+        return true;
+    }
+</script>
+
 </body>
+
+
 
 </html>
