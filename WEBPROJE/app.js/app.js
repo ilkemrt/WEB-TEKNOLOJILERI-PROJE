@@ -2,12 +2,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const searchForm = document.getElementById('search-form');
     const movieNameInput = document.getElementById('movie-name');
     const movieInfo = document.getElementById('movie-info');
-    const apiKey = "552cdfb3"; // OMDB API anahtarınızı buraya ekleyin
+    const apiKey = "552cdfb3"; 
   
     searchForm.addEventListener('submit', function (event) {
       event.preventDefault();
       const movieName = movieNameInput.value.trim();
-      console.log('Aranan film:', movieName); // Debug için
+      console.log('Aranan film:', movieName); 
       if (movieName) {
         searchMovie(movieName);
       }
@@ -16,15 +16,15 @@ document.addEventListener('DOMContentLoaded', function () {
     function searchMovie(movieName) {
       movieInfo.innerHTML = '<p>Film bilgileri yükleniyor...</p>';
       const apiUrl = `https://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&apikey=${apiKey}`;
-      console.log('API URL:', apiUrl); // Debug için
+      console.log('API URL:', apiUrl); 
   
       fetch(apiUrl)
         .then(response => {
-          console.log('API yanıtı:', response); // Debug için
+          console.log('API yanıtı:', response);
           return response.json();
         })
         .then(data => {
-          console.log('API verisi:', data); // Debug için
+          console.log('API verisi:', data); 
           if (data.Response === "True") {
             displayMovieInfo(data);
           } else {
@@ -49,3 +49,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
   
+ 
+
+
