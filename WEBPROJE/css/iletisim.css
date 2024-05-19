@@ -2,14 +2,36 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif
+
 }
-.container-fluid{
+
+
+body{
+
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+  }
+  .nav-item a{
+
+    color: white;
+    font-size: 2rem;
+  }
+
+
+
+.iletisimform{
 
     width: 100%;
 
     height: 100vh;
-    background: #474747;
+    background:  #343a40;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,10 +80,6 @@ border-radius: 30px;
 
 
 
-
-
-
-
 .error { color: red; }
         .popup {
             visibility: hidden;
@@ -81,18 +99,6 @@ border-radius: 30px;
         }
         .popup.show {
             visibility: visible;
-        }
-
-        #result p{
-
-            color: black;
-        }
-
-
-
-        #result1 p{
-            color: #000;
-            text-align: center;
         }
 
         

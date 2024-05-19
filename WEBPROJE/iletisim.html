@@ -18,7 +18,47 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
 
-<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ilkemrt</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+         Hizmetler
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="proje4.html?">Film Arama Hizmeti</a></li>
+          
+          </ul>
+        </div>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="proje.html">Ana Sayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proje2.html">Şehrim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="proje3.html">Miras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iletisim.html">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+
+
+
+
+
+<div class="container-fluid iletisimform " onsubmit="return validateForm()">
 
     <form id="contactForm">
         <h3>İLETİŞİM</h3>
@@ -33,7 +73,7 @@
         <button type="submit" id="btn1" value="click" onclick="cikti();" >Gönder</button>
         <button type="reset" id="btn2">Temizle</button>
     </form>
-
+</div>  
 
 
 
@@ -43,7 +83,6 @@
 
 <footer class="bg-black text-white text-center py-3">
     <div class="container">
-     
     </div>
   </footer>
 
@@ -70,6 +109,63 @@ return false;
 
 
 }
+
+var nameError = document.getElementById("errorName");
+            var surnameError = document.getElementById("errorSurname");
+            var emailError = document.getElementById("errorEmail");
+            var messageError = document.getElementById("errorMessage");
+
+
+            function validateForm() {
+            var isim = document.getElementById("isim").value;
+            var soyisim = document.getElementById("soyisim").value;
+            var email = document.getElementById("email").value;
+            var mesaj = document.getElementById("mesaj").value;
+            var nameError = document.getElementById("errorName");
+            var surnameError = document.getElementById("errorSurname");
+            var emailError = document.getElementById("errorEmail");
+            var messageError = document.getElementById("errorMessage");
+            
+            
+            var hasNumber = /\d/;
+            
+
+            if (hasNumber.test(isim) || hasNumber.test(soyisim)) {
+                alert("İsim veya Soyisim kısmında sayı bulunamaz.");
+                
+                
+                return false; 
+
+            }
+
+            var isValid = true;
+
+            if (hasNumber.test(isim)) {
+                nameError.style.display = "block";
+                isValid = false;
+            } else {
+                nameError.style.display = "none";
+            }
+
+            if (hasNumber.test(soyisim)) {
+                surnameError.style.display = "block";
+                isValid = false;
+            } else {
+                surnameError.style.display = "none";
+            }
+
+            if (isValid) {
+                alert("Mesajınız başarıyla gönderildi.");
+            }
+
+            return isValid;
+        }
+
+
+
+
+
+
 </script>
 
 
